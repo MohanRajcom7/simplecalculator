@@ -38,3 +38,6 @@ public class Calculator {
             case 4:
                 result = num1 / num2;
                 System.out.println("Result: " + num1 + " + " + num2 + " = ")
+
+          default:
+                System.out.println("SOMETHING WENT WRONG");
