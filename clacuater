@@ -28,4 +28,13 @@ public class Calculator {
         switch (choice) {
             case 1:
                 result = num1 + num2;
-                System.out.println("Result: " + num1 + " + " + num2 + " = "
+                System.out.println("Result: " + num1 + " + " + num2 + " = ")
+            case 2:
+                result = num1 - num2;
+                System.out.println("Result: " + num1 + " + " + num2 + " = ")
+            case 3:
+                result = num1 * num2;
+                System.out.println("Result: " + num1 + " + " + num2 + " = ")
+            case 4:
+                result = num1 / num2;
+                System.out.println("Result: " + num1 + " + " + num2 + " = ")
